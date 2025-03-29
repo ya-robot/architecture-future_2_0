@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="d9b1e647-80fa-b4a2-5024-87a742678bcc">
+    <mxGraphModel dx="2963" dy="1709" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="57fe6abec08f04cb-1" value="&lt;h3 style=&quot;font-size: 20px;&quot;&gt;&lt;strong style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Подготовка&amp;nbsp;&lt;/font&gt;&lt;/strong&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;(0–3 месяца)&lt;/strong&gt;&lt;/h3&gt;" style="shape=step;whiteSpace=wrap;html=1;fontSize=15;fillColor=#0080FF;fontColor=#FFFFFF;strokeColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="670" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="57fe6abec08f04cb-2" value="&lt;h3&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Базовый переход (3–6 месяцев)&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;" style="shape=step;whiteSpace=wrap;html=1;fontSize=28;fillColor=#0075E8;fontColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="760" y="180" width="680" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="57fe6abec08f04cb-3" value="&lt;h3&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Масштабирование (12+ месяцев)&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;" style="shape=step;whiteSpace=wrap;html=1;fontSize=28;fillColor=#0067CC;fontColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="180" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="57fe6abec08f04cb-7" value="Roadmap" style="text;html=1;strokeColor=none;fillColor=#61BAFF;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=54;fontStyle=1;fontColor=#004D99;" parent="1" vertex="1">
+          <mxGeometry x="90" y="120" width="2550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="57fe6abec08f04cb-8" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Задача&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ответственные&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ресурсы&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Обоснование&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Миграция DWH → Snowflake&lt;/td&gt;&lt;td&gt;Data Engineering&lt;/td&gt;&lt;td&gt;$50k (лицензии)&lt;/td&gt;&lt;td&gt;Устраняет «тормоза» отчетности&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Внедрение Azure AD&lt;/td&gt;&lt;td&gt;DevOps&lt;/td&gt;&lt;td&gt;$10k (настройка)&lt;/td&gt;&lt;td&gt;Соответствие GDPR/HIPAA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Пилот Kafka для финтеха&lt;/td&gt;&lt;td&gt;Backend-разработчики&lt;/td&gt;&lt;td&gt;$20k (инфраструктура)&lt;/td&gt;&lt;td&gt;Готовая шина для новых интеграций&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;spacingTop=-5;fillColor=#ffffff;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="90" y="260" width="670" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wWSI4NPEuta3lFbxQq7j-2" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Задача&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ответственные&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ресурсы&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Обоснование&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Запуск Data Lake (Delta Lake)&lt;/td&gt;&lt;td&gt;Data Engineers&lt;/td&gt;&lt;td&gt;$30k (хранилище)&lt;/td&gt;&lt;td&gt;Единый источник сырых данных&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Self-Service BI (Power BI)&lt;/td&gt;&lt;td&gt;Аналитики&lt;/td&gt;&lt;td&gt;$15k (лицензии)&lt;/td&gt;&lt;td&gt;Снижение нагрузки на IT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Миграция API на gRPC&lt;/td&gt;&lt;td&gt;Backend-команда&lt;/td&gt;&lt;td&gt;$25k (рефакторинг)&lt;/td&gt;&lt;td&gt;Ускорение обмена данными между доменами&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;spacingTop=-5;fillColor=default;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=default;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="260" width="680" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wWSI4NPEuta3lFbxQq7j-5" value="&lt;h3&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Оптимизация (6–12 месяцев)&lt;/font&gt;&lt;/strong&gt;&lt;/h3&gt;" style="shape=step;whiteSpace=wrap;html=1;fontSize=28;fillColor=#0067CC;fontColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="180" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wWSI4NPEuta3lFbxQq7j-6" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Задача&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ответственные&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ресурсы&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Обоснование&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Внедрение Data Mesh&lt;/td&gt;&lt;td&gt;Архитекторы&lt;/td&gt;&lt;td&gt;$40k (обучение)&lt;/td&gt;&lt;td&gt;Гибкость для новых бизнесов&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Переход с Power Builder → React&lt;/td&gt;&lt;td&gt;Frontend-команда&lt;/td&gt;&lt;td&gt;$50k (разработка)&lt;/td&gt;&lt;td&gt;Улучшение UX для врачей&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Аудит безопасности&lt;/td&gt;&lt;td&gt;DevOps + Юристы&lt;/td&gt;&lt;td&gt;$10k (аудит)&lt;/td&gt;&lt;td&gt;Минимизация рисков штрафов&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;spacingTop=-5;fillColor=default;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=default;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="260" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wWSI4NPEuta3lFbxQq7j-7" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Задача&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ответственные&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Ресурсы&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Обоснование&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Подключение фармацевтики&lt;/td&gt;&lt;td&gt;Все домены&lt;/td&gt;&lt;td&gt;$100k (интеграция)&lt;/td&gt;&lt;td&gt;Новый источник дохода&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AI-витрины для прогнозов&lt;/td&gt;&lt;td&gt;Data Scientists&lt;/td&gt;&lt;td&gt;$60k (ML-инфраструктура)&lt;/td&gt;&lt;td&gt;Улучшение диагностики&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;spacingTop=-5;fillColor=default;whiteSpace=wrap;html=1;align=left;fontSize=12;fontFamily=Helvetica;fillColor=none;strokeColor=default;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="260" width="600" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
